@@ -4688,7 +4688,9 @@ input, select, textarea {
 		}
 
 	}
-/* Featured project full width */
-.posts article.featured {
-	width: 100% !important;
+.posts article:first-child {
+	flex-basis: 100% !important;
+	max-width: 100% !important;
 }
+
+
