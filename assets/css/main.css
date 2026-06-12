@@ -3341,7 +3341,7 @@ input, select, textarea {
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			color: #2E2A78 !important;
 		}
 
 		#intro blockquote {
