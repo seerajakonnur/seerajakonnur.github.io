@@ -3310,7 +3310,7 @@ input, select, textarea {
 		-moz-justify-content: -moz-flex-end;
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
+		justify-content: center;
 		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
@@ -3398,6 +3398,18 @@ input, select, textarea {
 			font-size: 5rem;
 			line-height: 1;
 		}
+
+        #intro h2 {
+	        font-size: 3rem;
+	        line-height: 1.1;
+	        margin: 0 0 1rem 0;
+        }
+
+        #intro h3 {
+	        font-size: 2rem;
+	        line-height: 1.1;
+	        margin: 0 0 1rem 0;
+        }
 
 		#intro p {
 			font-size: 1.25rem;
@@ -3488,6 +3500,16 @@ input, select, textarea {
 					margin-bottom: 1rem;
 				}
 
+			    #intro h2 {
+	                font-size: 2rem;
+	                line-height: 1.2;
+                }
+
+			    #intro h3 {
+	                font-size: 1.5rem;
+	                line-height: 1.2;
+                }
+			
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
