@@ -4723,4 +4723,10 @@ input, select, textarea {
 	max-width: 100% !important;
 }
 
+#nav ul.links li a {
+	color: #1B174F !important;
+}
 
+#nav ul.links li a:hover {
+	color: #18bfef !important;
+}
