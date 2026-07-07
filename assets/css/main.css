@@ -4768,3 +4768,13 @@ input, select, textarea {
 		max-width: 260px;
 	}
 }
+
+#nav ul.icons li a.icon,
+#nav ul.icons li a.icon::before {
+	color: #1B174F !important;
+}
+
+#nav ul.icons li a.icon:hover,
+#nav ul.icons li a.icon:hover::before {
+	color: #18bfef !important;
+}
