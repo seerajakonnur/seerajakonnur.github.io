@@ -4778,3 +4778,16 @@ input, select, textarea {
 #nav ul.icons li a.icon:hover::before {
 	color: #18bfef !important;
 }
+#nav ul.icons .google-scholar-link {
+	color: #1B174F !important;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 0.8rem;
+	font-weight: 900;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	border-bottom: none;
+}
+
+#nav ul.icons .google-scholar-link:hover {
+	color: #18bfef !important;
+}
